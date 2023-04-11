@@ -22,8 +22,8 @@ body {
 }
 
 .box1 {
-  width: 540px;
-  height: 711px;
+  width: 440px;
+  height: 611px;
   background-color: rgb(255, 255, 255);
   border-radius: 30px 0px 0px 30px;
   display: flex;
@@ -33,8 +33,8 @@ body {
 }
 
 .box2 {
-  width: 431px;
-  height: 711px;
+  width: 331px;
+  height: 611px;
   background-color: blue;
   border-radius: 0px 30px 30px 0px;
   background-image: url(https://cdn.pixabay.com/photo/2016/03/19/21/32/child-1267506_1280.jpg);
