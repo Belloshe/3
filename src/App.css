@@ -78,7 +78,7 @@ body {
 
 /* Media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .box1,
   .box2 {
     width: 100%;
