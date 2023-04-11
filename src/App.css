@@ -11,7 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  
 }
 
 .container {
@@ -30,7 +29,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .box2 {
@@ -43,7 +41,6 @@ body {
   background-image: url(https://cdn.pixabay.com/photo/2016/03/19/21/32/child-1267506_1280.jpg);
   background-size: cover; /* Scale the image to cover the entire element */
   background-position: center;
-
 }
 
 .box1 button {
@@ -60,9 +57,8 @@ body {
   text-align: center;
   font-size: 50px;
   margin-bottom: 30px;
-font-stretch: extra-expanded;
+  font-stretch: extra-expanded;
 }
-
 
 .box1 h2 {
   color: #5D5D5D;
@@ -73,10 +69,47 @@ font-stretch: extra-expanded;
 .box1 h3 {
   text-align: center;
   margin-bottom: 30px;
-font-size: 40px;
+  font-size: 40px;
 }
 
 .box1 button:hover {
   background-color: #8A5AB1; 
   color: rgb(255, 255, 255); 
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .box1,
+  .box2 {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+  
+  .box1 {
+    padding: 20px;
+  }
+  
+  .box1 h1 {
+    font-size: 36px;
+  }
+  
+  .box1 h2 {
+    font-size: 24px;
+  }
+  
+  .box1 h3 {
+    font-size: 30px;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  .box2 {
+    display: none;
+  }
 }
