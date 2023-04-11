@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right,#3D1E56, #7A46A2, #8A5AB1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  width: 590px;
+  height: 813px;
+  background-color: rgb(255, 255, 255);
+  top: 63px;
+  left: -108px;
+  border-radius: 30px 0px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box2 {
+  width: 590px;
+  height: 813px;
+  top: 63px;
+  left: 528px;
+  background-color: blue;
+  border-radius: 0px 30px 30px 0px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/19/21/32/child-1267506_1280.jpg);
+  background-size: cover; /* Scale the image to cover the entire element */
+  background-position: center;
+
+}
+
+.box1 button {
+  background-color: #E090FC;
+  font-size: 18px;
+  padding: 10px 50px;
+  margin-top: 10px; 
+  border-radius: 20px 20px 20px 20px;
+  transition: all 0.3s ease;
+}
+
+.box1 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+font-stretch: extra-expanded;
+}
+
+
+.box1 h2 {
+  color: #5D5D5D;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box1 h3 {
+  text-align: center;
+  margin-bottom: 30px;
+font-size: 40px;
+}
+
+.box1 button:hover {
+  background-color: #8A5AB1; 
+  color: rgb(255, 255, 255); 
+}
